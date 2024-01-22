@@ -8,7 +8,7 @@ namespace MAUIVERTER
         {
             InitializeComponent();
 
-            MainPage = new MenuView();
+            MainPage = new ConverterView();
         }
     }
 }
