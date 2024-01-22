@@ -1,4 +1,6 @@
-﻿namespace MAUIVERTER
+﻿using MAUIVERTER.MVVM.Views;
+
+namespace MAUIVERTER
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new MenuView();
         }
     }
 }
